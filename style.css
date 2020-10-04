@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/29/f8/e7/29f8e7f69d641995cc74a1bd83f81caf.jpg);
+}
+.header{
+
+    display:flex;
+    justify-content: space-between;
+    
+    }
+a:link{
+color: white;
+text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+    }
+.origami{
+    display:flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+   
+    }
+    
+    .item{
+        position: relative;
+    }
+    .item p {
+        position: absolute;
+        top: 30%;
+        left:30%;
+        transform: translate(-115%,-100%);
+        opacity: 0;
+        
+    }
+    .item:hover p{
+        opacity: 1;
+        }
+    .item:hover img{
+        opacity:.33;
+        transform: scale(1.2);
+        }
